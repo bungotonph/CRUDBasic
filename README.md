@@ -13,9 +13,8 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using .NE
 - C#
 - Windows Forms
 
-## Getting Started
+# Getting Started
 To get started with the application, follow these steps:
-
 ## Clone this repository to your local machine.
 1. Open the solution file in Visual Studio.
 2. Open the appsettings.json file and update the ConnectionStrings section with your SQL Server connection details.
