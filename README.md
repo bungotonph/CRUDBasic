@@ -20,7 +20,7 @@ This application demonstrates how to perform CRUD (Create, Read, Update, Delete)
 - To delete a record, select the row in the DataGridView that you want to delete and press the Delete key.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE.md file for details.
 
 ## Acknowledgments
 This project was inspired by: Cabal Private Server Online
