@@ -31,6 +31,7 @@
             dataGridView1 = new DataGridView();
             BTNSave = new Button();
             BTNView = new Button();
+            LBLDesc = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -66,11 +67,21 @@
             BTNView.UseVisualStyleBackColor = true;
             BTNView.Click += BTNView_Click;
             // 
+            // LBLDesc
+            // 
+            LBLDesc.AutoSize = true;
+            LBLDesc.Location = new Point(135, 252);
+            LBLDesc.Name = "LBLDesc";
+            LBLDesc.Size = new Size(469, 15);
+            LBLDesc.TabIndex = 4;
+            LBLDesc.Text = "You can edit the data in the DataGridView directly to update the records in the database.";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1444, 290);
+            Controls.Add(LBLDesc);
             Controls.Add(BTNView);
             Controls.Add(BTNSave);
             Controls.Add(dataGridView1);
@@ -78,6 +89,7 @@
             Text = "MainForm";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -85,5 +97,6 @@
         private DataGridView dataGridView1;
         private Button BTNSave;
         private Button BTNView;
+        private Label LBLDesc;
     }
 }
